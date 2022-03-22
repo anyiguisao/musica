@@ -1,0 +1,113 @@
+body{
+    background: black;
+}
+header{
+    font-size:50px;
+    background-image: url(../images/angel-jimenez.jpg);
+    height: 550px;
+    background-size: cover;
+    
+}
+
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff; ;
+}
+
+.guitarra{
+    height: 450px;
+    background: url(../images/john-raptis.png);
+    background-size: cover;
+    text-align: justify;
+    padding: 100px 40px 10px 700px;
+    color: #fff;
+    
+}
+
+h1{ 
+    color: #fff;
+    text-align: center;
+    padding: 200px 0 0 0;
+}
+
+h2{ 
+    color: rgb(233, 54, 149);
+}
+
+
+.img1{
+    margin-right: 300px;
+    float: right;
+    width: 80px;
+}
+
+
+
+.textos1{
+    width: 40%;
+    float: left;
+    padding: 0 0 0 70px;
+    background-size: cover;
+}
+
+.clear{
+    clear: both;
+}
+
+img{
+    width: 300px;
+}
+
+.imagen2{
+    margin-right: 400px;
+    float: left;
+    width: 80px;
+    padding: 0 0 0 50px;
+}
+
+.texto2{
+    width: 40%;
+    float: right;
+    padding: 0 50px 0 0;
+    background-size: cover;
+    text-align: justify;
+}
+
+
+
+
+.tabla {
+    padding: 0px 0px 50px 150px;
+    background-color:rgb(238, 90, 90);
+}
+
+tr td {
+    padding: 20px;
+    color: #ffffff;
+}
+
+hr{ 
+    width: 850px;
+    padding:0px;
+}
+.boton{
+    border-radius: 25px;
+    background-color:rgb(238, 90, 90);
+    width: 45%;
+    color: white;
+}
+.bot{
+    font-size: 14px;
+}
+footer{ 
+    color: white;
+}
+.f{
+    text-align: right;
+    margin: 0 100px 0 50px; 
+}
+.t{
+    color: white;
+}
