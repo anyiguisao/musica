@@ -111,3 +111,162 @@ footer{
 .t{
     color: white;
 }
+
+
+@media screen and (max-width:1200px){
+    body {
+        margin: 0;
+        padding:0;
+    }
+
+    .bloque{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
+    }
+
+    .texto2{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;   
+        
+    }
+
+  
+
+}
+
+@media screen and (max-width:992px){
+    
+
+
+
+
+}
+
+@media screen and (max-width:768px){
+
+    p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:601px){
+
+    p{
+        font-size: 17px;
+    }
+    .bloque{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+
+    .textos1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+        padding: 0;
+    }
+    .texto2{
+        width: 70%;
+        padding: 0;
+    }
+    img{
+        width: 370px;
+        padding: 0;
+    }
+    .img1{
+        padding: 0;
+        
+    }
+
+    .imagen2{
+        padding: 0 0 0 130px;
+        
+        
+    }
+    p{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 40px;
+    }
+
+    .boton{
+        display: flex;
+       justify-content: center;
+       margin: 0 0 0 145px;
+        width: 60%;
+    }
+
+    .guitarra{
+        padding: 100px 120px 10px 100px;
+    }
+    .bot{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:401px){
+    
+    .bloque{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+
+    .textos1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 80%;
+        padding: 0;
+    }
+    .texto2{
+        width: 80%;
+        padding: 0;
+    }
+    img{
+        width: 480px;
+        padding: 0;
+    }
+    .img1{
+        padding: 0;
+        
+    }
+
+    .imagen2{
+        padding: 0 0 0 130px;
+        
+        
+    }
+    p{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 50px;
+    }
+
+    .boton{
+        display: flex;
+       justify-content: center;
+       margin: 0 0 0 150px;
+        width: 70%;
+    }
+
+    .guitarra{
+        padding: 50px 120px 130px 100px;
+    }
+    .bot{
+        font-size: 25px;
+    }
+    td{
+        font-size: 20px;
+    }
+
+}
