@@ -342,7 +342,8 @@ footer{
     .tabla{
         right: 300px;
         width: 96%;
-        padding: 0 20x 0 10px;
+        padding: 0 16px 35px 0;
+
         
     }
     footer{
@@ -367,9 +368,12 @@ footer{
         margin: 0 10px 0 0px;
     }
     tr td{
-        padding: 4px;
+        padding: 0;
     }
-   
+    hr{
+        padding: 0;
+    }
+
     
 
 }
