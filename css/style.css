@@ -95,7 +95,6 @@ tr td {
 
 hr{ 
     width: 850px;
-    padding:0px;
 }
 .boton{
     border-radius: 25px;
@@ -108,17 +107,28 @@ hr{
 }
 footer{ 
     color: white;
+    width: 100%;
 }
 .f{
+    float: right;
     text-align: right;
-    margin: 0 100px 0 50px; 
+    margin: 0 70px 0 50px; 
 }
 .t{
     color: white;
 }
+.footer1{
+    float: left;
+    text-align: right;
+    margin: 0 70px 0 20px; 
+}
 
 
 @media screen and (max-width:1200px){
+   main{
+       width: 100%;
+   }
+   
     body {
         margin: 0;
         padding:0;
@@ -134,20 +144,21 @@ footer{
     .texto2{
         display: flex;
         flex-direction: column;
-        align-items:flex-start;   
-        
+        align-items:flex-start;        
     }
 
-  
-
+    hr{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:992px){
-    
-
-
-
-
+    .imagen2{
+        margin-right: 0;
+    }    
+    .guitarra{
+        padding: 100px 40px 10px 400px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -158,64 +169,14 @@ footer{
 }
 
 @media screen and (max-width:601px){
-
-    p{
-        font-size: 17px;
+  
+    header{
+        width: 100%;
+        height: 100%;
     }
-    .bloque{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        
+    h1{
+        padding: 120px 20px 100px 90px;
     }
-
-    .textos1{
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        padding: 0 0px 0 160px;
-    }
-    .texto2{
-        width: 70%;
-        padding: 0 160px 0 0;
-    }
-    img{
-        width: 370px;
-        padding: 0;
-    }
-    .img1{
-        padding: 0 300px 0 0;
-        
-    }
-
-    .imagen2{
-        padding: 0 0 0 300px;
-        
-        
-    }
-    p{
-        font-size: 30px;
-    }
-    h2{
-        font-size: 40px;
-    }
-
-    .boton{
-        display: flex;
-       justify-content: center;
-       margin: 0 0 0 145px;
-        width: 60%;
-    }
-
-    .guitarra{
-        padding: 100px 120px 10px 100px;
-    }
-    .bot{
-        font-size: 17px;
-    }
-}
-
-@media screen and (max-width:400px){
     
     .bloque{
         display: flex;
@@ -227,54 +188,189 @@ footer{
     .textos1{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        width: 80%;
-        padding: 0 0 0 140px;
+        width: 70%;
+        padding: 0 0 0 100px;
     }
     .texto2{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 80%;
-        padding: 0 100px 0 100px;
+        width: 70%;
+        padding: 0 80px 0 0;
     }
     img{
-        width: 480px;
+        width: 370px;
         padding: 0;
     }
     .img1{
-        padding: 0 300px 0 0;
+        padding: 0 115px 0 100px;
         
     }
 
     .imagen2{
-        padding: 0 0 0 300px;
+        padding: 0 0 0 100px;
         
         
     }
     p{
-        font-size: 40px;
+        font-size: 25px;
+        margin: 5px 0 0 0;
+        width: 100%;
     }
     h2{
-        font-size: 50px;
+        font-size: 35px;
+        margin: 7px 0 10px 0;
+        
     }
 
     .boton{
         display: flex;
        justify-content: center;
-       margin: 0 0 0 150px;
-        width: 70%;
+       margin: 15px 0 0 66px;
+        width: 60%;
+        height: 50px;
     }
 
     .guitarra{
-        padding: 40px 120px 130px 100px;
+        height: 390px;
+        padding: 30px 120px 10px 100px;
+
     }
     .bot{
+        font-size: 17px;
+    }
+    .tabla{
+        right: 300px;
+        width: 90;
+        padding:0 5px 0 10px;
+        
+    }
+    footer{
+        width: 70%;
+        margin: 0 0 0 2px;
+        background-color:rgb(238, 90, 90) ;
+       
+    }
+    .bot{
+        margin: 10px;
+    }
+    .f{
+        width: 30%;
+        margin: 0 0 0 2px; 
+        font-size: 15px;
+    }
+    
+    
+    .footer1{
+        width: 60%;
+        font-size: 15px;
+        margin: 0 10px 0 0px;
+    }
+    tr td{
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+    
+    header{
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        padding: 80px 5px 20px 20px;
+        font-size: 100px;
+    }
+    
+    .bloque{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+    }
+
+    .textos1{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: 0 0 0 50px;
+    }
+    .texto2{
+        width: 70%;
+        padding: 0 80px 0 0;
+    }
+    img{
+        width: 180px;
+        padding: 0;
+    }
+    .img1{
+        margin-right: 0;
+        padding: 0 208px 0 0;
+        
+    }
+
+    .imagen2{
+        padding: 0 0 0 100px;
+        
+    }
+
+    p{
+        font-size: 15px;
+        margin: 5px 0 0 0;
+        width: 100%;
+    }
+    h2{
         font-size: 25px;
+        margin: 7px 0 10px 0;
+        
     }
-    td{
-        font-size: 20px;
+
+    .boton{
+        display: flex;
+       justify-content: center;
+       margin: 15px 0 0 66px;
+        width: 60%;
+        height: 50px;
     }
+
+    .guitarra{
+        padding: 55px 24px 34px 38px;
+
+    }
+    .bot{
+        font-size: 17px;
+    }
+    .tabla{
+        right: 300px;
+        width: 96%;
+        padding: 0 20x 0 10px;
+        
+    }
+    footer{
+        width: 70%;
+        margin: 0 0 0 2px;
+        background-color:rgb(238, 90, 90) ;
+       
+    }
+    .bot{
+        margin: 10px;
+    }
+    .f{
+        width: 30%;
+        margin: 0 0 0 2px; 
+        font-size: 15px;
+    }
+    
+    
+    .footer1{
+        width: 60%;
+        font-size: 15px;
+        margin: 0 10px 0 0px;
+    }
+    tr td{
+        padding: 6px;
+    }
+   
+    
 
 }
 
